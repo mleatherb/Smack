@@ -14,6 +14,9 @@
 		27E15EDC20866822003DF621 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E15EDB20866822003DF621 /* ChatVC.swift */; };
 		27E15EDE2086682E003DF621 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E15EDD2086682E003DF621 /* ChannelVC.swift */; };
 		27E15EE820866F21003DF621 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E15EE620866F21003DF621 /* SWRevealViewController.m */; };
+		27E15EEA20867FA6003DF621 /* GraidentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E15EE920867FA6003DF621 /* GraidentView.swift */; };
+		27E15EED2087C7CE003DF621 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E15EEC2087C7CE003DF621 /* Constants.swift */; };
+		27E15EEF2087CC19003DF621 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E15EEE2087CC19003DF621 /* LoginVC.swift */; };
 		A6A8B61B77EE9EF58D466A02 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB4E25A7365787D9156B5E9 /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +32,9 @@
 		27E15EE520866F20003DF621 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		27E15EE620866F21003DF621 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		27E15EE720866F21003DF621 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		27E15EE920867FA6003DF621 /* GraidentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraidentView.swift; sourceTree = "<group>"; };
+		27E15EEC2087C7CE003DF621 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		27E15EEE2087CC19003DF621 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		83C6283CE4BBB8E87DC7881A /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 		D1CCDF7E62B1F118BEF99FCE /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 		DCB4E25A7365787D9156B5E9 /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +73,7 @@
 		27E15EBA2084DC73003DF621 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				27E15EEB2087C7BA003DF621 /* Utilities */,
 				27E15EDA208667FA003DF621 /* Model */,
 				27E15ED9208667F2003DF621 /* View */,
 				27E15ED8208667EA003DF621 /* Controller */,
@@ -95,6 +102,7 @@
 			children = (
 				27E15EDB20866822003DF621 /* ChatVC.swift */,
 				27E15EDD2086682E003DF621 /* ChannelVC.swift */,
+				27E15EEE2087CC19003DF621 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -102,6 +110,7 @@
 		27E15ED9208667F2003DF621 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				27E15EE920867FA6003DF621 /* GraidentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -111,6 +120,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		27E15EEB2087C7BA003DF621 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				27E15EEC2087C7CE003DF621 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		5F196380952DE03008734142 /* Pods */ = {
@@ -251,8 +268,11 @@
 			files = (
 				27E15EDE2086682E003DF621 /* ChannelVC.swift in Sources */,
 				27E15EDC20866822003DF621 /* ChatVC.swift in Sources */,
+				27E15EEF2087CC19003DF621 /* LoginVC.swift in Sources */,
+				27E15EEA20867FA6003DF621 /* GraidentView.swift in Sources */,
 				27E15EBC2084DC73003DF621 /* AppDelegate.swift in Sources */,
 				27E15EE820866F21003DF621 /* SWRevealViewController.m in Sources */,
+				27E15EED2087C7CE003DF621 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
